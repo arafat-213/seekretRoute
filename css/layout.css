@@ -364,38 +364,38 @@ ul#nav li.current a {
 	border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.react {
+	width: 70%;
+	-moz-animation: react 2s ease;
+	-webkit-animation: react 2s ease;
+}
+.redux {
 	width: 60%;
-	-moz-animation: photoshop 2s ease;
-	-webkit-animation: photoshop 2s ease;
+	-moz-animation: redux 2s ease;
+	-webkit-animation: redux 2s ease;
 }
-.illustrator {
-	width: 55%;
-	-moz-animation: illustrator 2s ease;
-	-webkit-animation: illustrator 2s ease;
+.express {
+	width: 65%;
+	-moz-animation: express 2s ease;
+	-webkit-animation: express 2s ease;
 }
-.wordpress {
-	width: 50%;
-	-moz-animation: wordpress 2s ease;
-	-webkit-animation: wordpress 2s ease;
-}
-.css {
-	width: 90%;
-	-moz-animation: css 2s ease;
-	-webkit-animation: css 2s ease;
+.node {
+	width: 70%;
+	-moz-animation: node 2s ease;
+	-webkit-animation: node 2s ease;
 }
 .html5 {
 	width: 80%;
 	-moz-animation: html5 2s ease;
 	-webkit-animation: html5 2s ease;
 }
-.jquery {
-	width: 50%;
-	-moz-animation: jquery 2s ease;
-	-webkit-animation: jquery 2s ease;
+.mongo {
+	width: 55%;
+	-moz-animation: mongo 2s ease;
+	-webkit-animation: mongo 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes react {
 	0% {
 		width: 0px;
 	}
@@ -403,7 +403,7 @@ ul#nav li.current a {
 		width: 60%;
 	}
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes redux {
 	0% {
 		width: 0px;
 	}
@@ -411,7 +411,7 @@ ul#nav li.current a {
 		width: 55%;
 	}
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes express {
 	0% {
 		width: 0px;
 	}
@@ -419,7 +419,7 @@ ul#nav li.current a {
 		width: 50%;
 	}
 }
-@-moz-keyframes css {
+@-moz-keyframes node {
 	0% {
 		width: 0px;
 	}
@@ -435,7 +435,7 @@ ul#nav li.current a {
 		width: 80%;
 	}
 }
-@-moz-keyframes jquery {
+@-moz-keyframes mongo {
 	0% {
 		width: 0px;
 	}
@@ -444,7 +444,7 @@ ul#nav li.current a {
 	}
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes react {
 	0% {
 		width: 0px;
 	}
@@ -452,7 +452,7 @@ ul#nav li.current a {
 		width: 60%;
 	}
 }
-@-webkit-keyframes illustrator {
+@-webkit-keyframes redux {
 	0% {
 		width: 0px;
 	}
@@ -460,7 +460,7 @@ ul#nav li.current a {
 		width: 55%;
 	}
 }
-@-webkit-keyframes wordpress {
+@-webkit-keyframes express {
 	0% {
 		width: 0px;
 	}
@@ -468,7 +468,7 @@ ul#nav li.current a {
 		width: 50%;
 	}
 }
-@-webkit-keyframes css {
+@-webkit-keyframes node {
 	0% {
 		width: 0px;
 	}
@@ -484,7 +484,7 @@ ul#nav li.current a {
 		width: 80%;
 	}
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes mongo {
 	0% {
 		width: 0px;
 	}
